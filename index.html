@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>OpenShift</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>What is OpenShift</h2>
+
+					<br/>
+
+					<p>
+					"Container based platform for software deployment and management..."
+					</p>
+					<br/>
+
+					<p style="margin: 0 0 0 0">
+						<span data-autoslide="1000" class="fragment fade-in"><font><b>less infrastructure management</b></font></span>
+						<span data-autoslide="1000" class="fragment fade-in"><font><u>speed to delivery</u></font></span>
+						<span data-autoslide="1000" class="fragment fade-in"><font>resource utilisation</font></span>
+						<span data-autoslide="1000" class="fragment fade-in"><font size=5><b>software pioneering opportunities</b></font></span>
+						<span class="fragment fade-in"><font>cost and waste reduction</font></span>
+					</p>
+
+				</section>
+				<section>
+					<h2>What is containerisation?</h2>
+
+					<image src="images/containers.jpg"/>
+
+				</section>
+
+				<section>
+					<h2>Where are we now</h2>
+
+					<p style="margin: 0 0 0 0">
+						<span data-autoslide="1000" class="fragment fade-in"><font><b>playground environment</b></font></span>
+						<span data-autoslide="1000" class="fragment fade-in"><font><u>spring boot</u></font></span>
+						<span data-autoslide="1000" class="fragment fade-in"><font>ad integration</font></span>
+						<span data-autoslide="1000" class="fragment fade-in"><font size=5><b>custom validation</b></font></span>
+						<span data-autoslide="1000" class="fragment fade-in"><font>alfred integration</font></span>
+						<span data-autoslide="1000" class="fragment fade-in"><font size=5><b>ci/cd design</b></font></span>
+						<span class="fragment fade-in"><font size=5><b>dev environment</b></font></span>
+					</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
